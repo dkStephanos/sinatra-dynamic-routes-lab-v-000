@@ -43,7 +43,7 @@ class App < Sinatra::Base
       @operation = "*"
     when "divide"
       @operation = "/"
-    else 
+    else
       @operation
     end
     @num1 = params[:number1].to_i
